@@ -1,5 +1,7 @@
 # Alpha Trading Floor Facebook Auto Content Publisher
 
+[![CI](https://github.com/WilBGit/alpha-trading-floor-facebook/actions/workflows/ci.yml/badge.svg)](https://github.com/WilBGit/alpha-trading-floor-facebook/actions/workflows/ci.yml)
+
 The guarded Facebook content path for Alpha Trading Floor. It generates complete finance posts, validates the caption and visual, verifies the configured Page identity, publishes a regular photo post through the Meta Graph `/photos` edge, and reads the publication back before recording success.
 
 ## Included components
