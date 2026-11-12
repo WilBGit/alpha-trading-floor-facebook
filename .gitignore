@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*token*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime state, logs, media, and provider artifacts
+*.log
+*.json
+!requirements*.json
+.last_post_time
+posted_quotes*.json
+gpt_generated/
+grok_generated/
+backgrounds/
+used/
+legacy_archive/
+output/
+outputs/
+state/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
